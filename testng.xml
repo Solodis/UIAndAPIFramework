@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <parameter name="URL" value="https://www.youtube.com/"/>
+    <parameter name="browser" value="chrome"/>
     <test verbose="2" preserve-order="true" name="C:/development/Kronos/Repositories/UIAndAPIFramework/src/main/java"><packages>
-        <package name="tests.uitests"/>
+        <package name="tests.apitests.*"/>
     </packages>
     </test>
 </suite>

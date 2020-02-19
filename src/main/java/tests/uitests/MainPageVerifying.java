@@ -8,10 +8,6 @@ import tests.BaseTest;
 
 public class MainPageVerifying extends BaseTest {
 
-   @BeforeTest(alwaysRun = true)
-   public void setup(){
-   }
-
    @Test(alwaysRun = true)
    @Description("Just check yhat youtube button is displayed")
    public void verifyMainPagePositiveTest(){
@@ -20,10 +16,4 @@ public class MainPageVerifying extends BaseTest {
       mainPage.clickYouTubeButton();
 
    }
-
-   @AfterTest(alwaysRun = true)
-   public void tearDown(){
-      driver.quit();
-   }
-
 }

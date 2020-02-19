@@ -15,6 +15,7 @@ public class MainPage extends BasePage{
 
    public MainPage(WebDriver driver) {
       super(driver);
+      this.driver = driver;
    }
 
    public void clickYouTubeButton(){

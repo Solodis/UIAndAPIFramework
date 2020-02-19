@@ -1,6 +1,0 @@
-pages\BasePage.class
-driver\Driver.class
-tests\BaseTest.class
-tests\uitests\MainPageVerifying.class
-tests\uitests\PlayList.class
-pages\MainPage.class
