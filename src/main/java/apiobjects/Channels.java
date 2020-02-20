@@ -2,7 +2,8 @@ package apiobjects;
 
 public enum  Channels {
 
-   KARMIK_KOALA("UCIvkS0o7Csl6EuA7gCmdgqg");
+   KARMIK_KOALA("UCIvkS0o7Csl6EuA7gCmdgqg"),
+   IKARUS("UCEHXrV8ikvkLTMkYdbiu3mA");
 
    private final String channelId;
 

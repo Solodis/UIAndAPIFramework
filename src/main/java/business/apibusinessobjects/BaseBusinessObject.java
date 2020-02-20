@@ -16,20 +16,5 @@ public class BaseBusinessObject {
 
    public BaseBusinessObject(String response) throws IOException {
       this.response = response;
-      responseMap = parseResponse(response);
-   }
-
-   private Map<String, Object> parseResponse(String response) throws IOException {
-      return mapper.readValue(response, Map.class);
-   }
-
-   public List<String> getNodeValue(String key) throws IOException {
-      String[] nods = key.split("\\.");
-      String result = response;
-      for (String node : nods) {
-         result = parseResponse(result).get(node).toString().replaceAll("\\[", "").replaceAll("]", "");
-         results.add(result);
-      }
-      return results;
    }
 }
