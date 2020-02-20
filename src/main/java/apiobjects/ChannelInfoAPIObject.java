@@ -2,8 +2,7 @@ package apiobjects;
 
 public class ChannelInfoAPIObject {
 
+   public static final String BASE_URL = "https://www.googleapis.com/youtube/v3";
 
-   private static final String API_KEY = "AIzaSyCfmM2L56HaR4Bj2QieTSWdk0T-wjbew5o";
-   private static final String CHANNAL_ID = "UCIvkS0o7Csl6EuA7gCmdgqg";
-   public static String URL = "https://www.googleapis.com/youtube/v3/search?key=" + API_KEY + "&channelId=" + CHANNAL_ID +"&part=snippet,id&order=date&maxResults=50";
+   public static final String GET_VIDEOS_LIST = BASE_URL  +"/search?key=" + Keys.API.getKey() + "&channelId=" + Channels.KARMIK_KOALA.getChannelID() +"&part=snippet,id&order=date&maxResults=50";
 }
