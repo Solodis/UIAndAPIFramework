@@ -2,14 +2,12 @@ package utils;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.google.gson.JsonPrimitive;
 
 public class ResponseParser {
 
    private static JsonElement root;
-   private static JsonObject jsonObject;
+   private static JsonElement element;
    private static JsonArray jsonArray;
 
    public static String getNodeValue(String response, String key) {
@@ -18,67 +16,27 @@ public class ResponseParser {
 
    public static String getNodeValue(String response, String key, int index) {
       String[] nodes = key.split("\\.");
-      String result = null;
       root = new JsonParser().parse(response);
-      jsonObject = root.getAsJsonObject();
-
+      element = root;
       for (String node : nodes) {
-         if (jsonObject.get(node).isJsonObject()) {
-            jsonObject = jsonObject.get(node).getAsJsonObject();
-            result = jsonObject.toString();
-         } else if (jsonObject.get(node).isJsonPrimitive()) {
-            result = jsonObject.get(node).getAsString();
-         } else if (jsonObject.get(node).isJsonArray()) {
-            if (jsonObject.get(node).getAsJsonArray().size() > index) {
-               jsonObject = jsonObject.get(node).getAsJsonArray().get(index).getAsJsonObject();
-            } else {
-               result = jsonObject.toString();
-               break;
-            }
-            result = jsonObject.toString();
-         }
+         element = getJsonElement(element, node, index);
       }
-      return result;
+      return element.toString();
    }
 
-   public static String getNodeValue(String response, String key, int index) {
-      root = new JsonParser().parse(response);
-      JsonElement element;
-      String[] nodes = key.split("\\.");
-      if (root.isJsonArray()) {
-         element = root.getAsJsonArray();
-         for (String node : nodes) {
-            element = parseJsonArray(element, node);
+   private static JsonElement getJsonElement(JsonElement jsonElement, String node, int index) {
+      if (jsonElement.isJsonArray()) {
+         jsonArray = jsonElement.getAsJsonArray();
+         if (jsonArray.size() > index) {
+            jsonElement = jsonArray.get(index).getAsJsonObject().get(node);
+            return jsonElement;
          }
 
-      } else if (root.isJsonObject()) {
-         element = root.getAsJsonObject();
-         for (String node : nodes) {
-            element = parseJsonObject(element, key);
-         }
+      } else if (jsonElement.isJsonObject()) {
+         return jsonElement.getAsJsonObject().get(node);
+      } else if (jsonElement.isJsonPrimitive()) {
+         return jsonElement.getAsJsonPrimitive();
       }
-      for (String node : nodes) {
-
-      }
-   }
-
-   private static JsonElement parseJsonArray(JsonArray array, String key) {
-      for (int i = 0; i < array.size(); i++) {
-         if (array.get(i).isJsonObject()) {
-            return parseJsonObject(array.get(i).getAsJsonObject(), key);
-         } else if (array.get(i).isJsonPrimitive()) {
-            return array.get(i).getAsJsonPrimitive();
-         }
-      }
-      return null;
-   }
-
-   private static JsonElement parseJsonObject(JsonObject object, String key) {
-      if (object.get(key).isJsonArray()) {
-         object.get(key);
-      } else if (object.get(key).isJsonObject()) {
-         parseJsonObject(object.get(key).getAsJsonObject(), key);
-      }
-      object.get(key);
+      return jsonElement;
    }
 }

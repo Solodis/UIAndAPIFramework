@@ -3,14 +3,10 @@ package tests.apitests;
 import apiobjects.ChannelInfoAPIObject;
 import business.apibusinessobjects.BaseBusinessObject;
 import business.apibusinessobjects.VideoInfo;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import utils.ResponseParser;
 
 import java.io.IOException;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 

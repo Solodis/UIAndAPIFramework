@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2bae6f6-6953-4de6-b3c6-cccbbb41d184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiobjects/ChannelInfoAPIObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiobjects/ChannelInfoAPIObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiobjects/Channels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiobjects/Channels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ResponseParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,14 +33,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="493">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#390#398#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#404#412#0" expanded="true" />
@@ -63,25 +82,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/ResponseParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            <state relative-caret-position="217">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="452" selection-start-line="452" selection-end-line="452" />
             </state>
           </provider>
         </entry>
@@ -118,15 +128,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonArray.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -185,12 +186,12 @@
         <option value="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/business/APIBusinessObjects/VideoInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java" />
         <option value="$PROJECT_DIR$/src/main/java/apiobjects/Channels.java" />
         <option value="$PROJECT_DIR$/src/main/java/apiobjects/ChannelInfoAPIObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ResponseParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java" />
       </list>
     </option>
   </component>
@@ -349,7 +350,7 @@
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="testNG.xml&#9;FILE&#9;jar://C:/Users/Vyacheslav_Utenkov/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar!/META-INF/services/org.testng.xml.ISuiteParser&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582210136076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582285375511" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -416,38 +417,45 @@
       <option name="project" value="LOCAL" />
       <updated>1582189972501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Continue work on parser">
+      <created>1582210195325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582210195325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testNG - 2020.02.20 at 16h 15m 10s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 23m 08s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 16m 02s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 27m 58s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 25m 59s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 28m 16s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 26m 57s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 32m 33s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 27m 32s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 34m 27s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 28m 43s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 35m 13s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 29m 59s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 35m 50s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 52m 12s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 36m 33s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 55m 10s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 38m 14s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNG - 2020.02.20 at 16h 58m 36s.xml">
+    <history-entry file="testNG - 2020.02.21 at 14h 40m 39s.xml">
       <configuration name="testNG" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -455,7 +463,7 @@
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,8 +472,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32973504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2767419" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3346418" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18547596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28263003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,7 +481,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32973504" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32973504" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3523062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -481,7 +489,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.11727079" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.16151386" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -490,7 +498,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rest assured test is green" />
     <MESSAGE value="JSON parser in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON parser in progress" />
+    <MESSAGE value="Continue work on parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue work on parser" />
   </component>
   <component name="WindowStateProjectService">
     <state width="370" height="462" key="Git.Branch.Popup" />
@@ -498,22 +507,6 @@
     <state width="370" height="462" key="Git.Branch.Popup@1920.1200" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utils/ResponseParser.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="titles.get(33)" />
@@ -523,47 +516,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray().get(0).getAsJsonObject().get(&quot;snippet&quot;).getAsJsonObject().get(&quot;title&quot;)</expression-string>
+        <expression-string>ResponseParser.getNodeValue(response, &quot;items.snippet.title&quot;, 50)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.isJsonArray()</expression-string>
+        <expression-string>ResponseParser.getNodeValue(response, &quot;items&quot;, 50)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root</expression-string>
+        <expression-string>ResponseParser.getNodeValue(response, &quot;items.snippet&quot;, 50)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray().get(0).getAsJsonObject().get(&quot;snippet&quot;)</expression-string>
+        <expression-string>element.toString()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray().get(0).getAsJsonObject().get(&quot;title&quot;)</expression-string>
+        <expression-string>jsonElement</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray().get(0).getAsJsonObject()</expression-string>
+        <expression-string>ResponseParser.getNodeValue(response, &quot;items.snippet.title&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray().get(0)</expression-string>
+        <expression-string>jsonElement.getAsJsonObject().get(node)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;).getAsJsonArray()</expression-string>
+        <expression-string>jsonElement.isJsonObject()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>jsonObject.get(&quot;items&quot;)</expression-string>
+        <expression-string>entrySet</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -719,17 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apiobjects/ChannelInfoAPIObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiobjects/Keys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
         </state>
       </provider>
     </entry>
@@ -740,49 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiobjects/ChannelInfoAPIObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apiobjects/Keys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/apitests/BaseAPITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#398#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -793,14 +740,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ResponseParser.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="144">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/apitests/BaseAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/BaseBusinessObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#404#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ResponseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/apitests/CheckVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/business/apibusinessobjects/VideoInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#398#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
           </folding>
         </state>
       </provider>

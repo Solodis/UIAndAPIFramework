@@ -8,7 +8,7 @@ import java.util.List;
 
 public class VideoInfo extends BaseBusinessObject {
 
-   private int videoCount = 50;
+   private int videoCount = 20;
    private String kind;
    private String etag;
    private String nextPageToken;
@@ -20,14 +20,56 @@ public class VideoInfo extends BaseBusinessObject {
       for (int i = 0; i < videoCount; i++) {
          titles.add(ResponseParser.getNodeValue(response, "items.snippet.title", i));
       }
-      kind = ResponseParser.getNodeValue(response, "kind");
+      for (String title: getTitles()){
+         System.out.println(title);
+      }
    }
 
-   public void setVideosCount(int count){
-      if(count > 0){
-         videoCount = count;
-      } else if(count <= 0){
-         System.out.println("Count is invalid: " + count);
-      }
+   public int getVideoCount() {
+      return videoCount;
+   }
+
+   public void setVideoCount(int videoCount) {
+      this.videoCount = videoCount;
+   }
+
+   public String getKind() {
+      return kind;
+   }
+
+   public void setKind(String kind) {
+      this.kind = kind;
+   }
+
+   public String getEtag() {
+      return etag;
+   }
+
+   public void setEtag(String etag) {
+      this.etag = etag;
+   }
+
+   public String getNextPageToken() {
+      return nextPageToken;
+   }
+
+   public void setNextPageToken(String nextPageToken) {
+      this.nextPageToken = nextPageToken;
+   }
+
+   public String getRegionCode() {
+      return RegionCode;
+   }
+
+   public void setRegionCode(String regionCode) {
+      RegionCode = regionCode;
+   }
+
+   public List<String> getTitles() {
+      return titles;
+   }
+
+   public void setTitles(List<String> titles) {
+      this.titles = titles;
    }
 }
