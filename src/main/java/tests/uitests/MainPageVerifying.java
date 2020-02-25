@@ -9,7 +9,7 @@ import tests.BaseTest;
 public class MainPageVerifying extends BaseTest {
 
    @Test(alwaysRun = true)
-   @Description("Just check yhat youtube button is displayed")
+   @Description("Just check that youtube button is displayed")
    public void verifyMainPagePositiveTest(){
       MainPage mainPage = new MainPage(driver);
       new Assertion().assertTrue(mainPage.youTubeBtn.isDisplayed());
